@@ -26,6 +26,6 @@ with(s, legend("topright", col=c("black","red","blue"),
 # 4
 with(s, plot(timestamp, Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power"))
 
-dev.copy(png, file="~/Data/r-workspace/coursera/Exploratory_Data_Analysis/plot4.png")
+dev.copy(png, file="plot4.png", width=480, height=480)
 dev.off()
 
